@@ -1,0 +1,780 @@
+@font-face {
+  font-family: "Titania";
+  src: url("font/titania.regular.ttf") format("truetype"); /* Replace "myfont.ttf" with the actual filename and format */
+}
+
+/* home page Hero section */
+.hero-section {
+  background-image: url("/Public/images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero {
+  padding: 20px;
+  max-width: 1760px;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Manrope;
+  margin-right: auto;
+  height: calc(80vh);
+  background-image: url("/Public/images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.hero_content {
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.hero h1 {
+  font-size: 100px;
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+  font-family: "Titania", sans-serif;
+  color: #ffffff;
+}
+.hero p {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  margin: 0px auto 0px auto;
+  font-weight: 400;
+  line-height: 25px;
+  max-width: 558px;
+  text-align: center;
+  color: #ffffff;
+}
+.hero button {
+  padding-left: 66.5px;
+  padding-right: 66.5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 150%;
+  background: #edbd6b;
+  border-radius: 40px;
+  box-shadow: 4px 5px 0px #000000;
+  cursor: pointer;
+}
+.container {
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*home page services section */
+.services-section {
+  max-width: 1440px;
+  background-color: #ffff;
+  font-family: "Manrope", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.services-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.services-main h1 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  margin: 0px auto 0px auto;
+  color: #101010;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+}
+.services-main p {
+  max-width: 520px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #505050;
+  line-height: 150%;
+}
+.Services-partition hr {
+  border: 1px solid #505050;
+}
+.digital-services {
+  display: flex;
+  flex-direction: column;
+}
+.digital-services1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.digital-services1 h2 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.12px;
+  color: #101010;
+}
+.drop h2 {
+  margin: 20px 0px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.12px;
+  color: #505050;
+}
+.drop {
+  display: flex;
+  flex-direction: column;
+}
+.forward_icon {
+  cursor: pointer;
+}
+.digital-service-image img {
+  width: 100%;
+  height: auto;
+}
+.digital-services-dropdown {
+  display: none;
+  justify-content: space-between;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: 1px solid #101010;
+  margin-top: 40px;
+}
+.digital-services-dropdown p {
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.12px;
+}
+.Services-partition {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 40px;
+  column-gap: 60px;
+}
+.card {
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 28px rgba(153, 153, 153, 0.25);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card h1 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 38px;
+  color: #000000;
+}
+.card p {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #505050;
+}
+.services-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.services-wrapper button {
+  padding: 10px 30px;
+  background: #fff0d7;
+  border: none;
+  border-radius: 60px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
+.services-btn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+.btn-1 {
+  background-color: #101010;
+  color: #ffff;
+  padding: 15px 85.5px 15px 85.5px;
+  box-shadow: 4px 5px 0px #edbd6b;
+  border-radius: 40px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+.btn-2 {
+  background-color: #fff;
+  color: #101010;
+  padding: 15px 30px 15px 30px;
+  box-shadow: 4px 5px 0px #edbd6b;
+  border-radius: 40px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+/* Home page about us Section */
+.about-section {
+  background: #101010;
+}
+.about {
+  max-width: 1440px;
+  margin-left: auto;
+  font-family: "Manrope", sans-serif;
+  margin-right: auto;
+  padding: 80px 20px 80px 20px;
+}
+.about-us-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.about-us {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
+}
+.about-description {
+  color: #ffffff;
+}
+.about-description h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 15px;
+}
+.about-description p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.brown-line {
+  border: 1px solid #edbd6b;
+  margin: 60px 0px;
+}
+
+/* home page Communication and promotion section */
+.Communication-section {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Manrope", sans-serif;
+  padding: 80px 20px 80px 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
+}
+.communication-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.work {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  justify-content: center;
+}
+.work h1 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  color: #101010;
+}
+.Com-btn {
+  display: flex;
+  gap: 10px;
+}
+.Com-btn button {
+  padding: 10px 40px;
+  box-shadow: 4px 5px 0px #edbd6b;
+  border-radius: 40px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+}
+.Com-btn1 {
+  background-color: #000000;
+  color: #fff;
+}
+.Com-btn2 {
+  background-color: #fff;
+  color: #000000;
+}
+
+/* home page faq Questions */
+.faq-section {
+  background-color: #f0f7f9;
+}
+.faq-questions {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Manrope", sans-serif;
+  padding: 80px 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
+}
+.frequently {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.frequently h1 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  color: #000000;
+}
+.frequently p {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #505050;
+}
+.questions {
+  display: flex;
+  flex-direction: column;
+}
+
+.questions-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.questions-list h4 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 153.52%;
+  color: #0f0f0f;
+}
+.questions p {
+  margin-bottom: 25px;
+}
+
+/* home page career section */
+.career-section {
+  background-color: #101010;
+}
+.career {
+  color: #fff;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Manrope", sans-serif;
+  padding: 80px 20px 80px 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.owl-of-minerva h1 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 20px;
+}
+.owl-of-minerva p {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.contact-via-email h1 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+.mail-us {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* digital services page */
+
+.choose-us-main {
+  display: flex;
+  flex-direction: column;
+  max-width: 592px;
+  gap: 14px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.choose-us-main h1 {
+  font-size: 36px;
+  font-family: Manrope;
+  font-weight: 800;
+}
+.choose-us-main p {
+  font-size: 16px;
+  font-family: Manrope;
+  line-height: 150%;
+}
+
+/* tech-Background */
+.tech-bg {
+  max-width: 1760px;
+  padding: 170px 0px 170px 0px;
+  background-image: url("/Public/images/tech-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px auto 0px auto;
+}
+
+/* online-competition */
+.online-competition {
+  max-width: 1440px;
+  font-family: Manrope;
+  margin: 0px auto;
+  padding: 80px 160px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
+}
+.online-content {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+.online-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.online-content h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+}
+.bullets {
+  width: 100%;
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+.bullets p {
+  max-width: 473px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+/* design page */
+.design-hero {
+  background-image: url("/Public/images/design-hero-Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 160px;
+  height: 540px;
+}
+
+/* Costumer Impression */
+
+.customer {
+  max-width: 1440px;
+  font-family: Manrope;
+  margin: 0px auto;
+  padding: 80px 160px 80px 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  justify-content: center;
+}
+.impression-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 34px;
+}
+.impression-info h1 {
+  max-width: 580px;
+  font-style: normal;
+  line-height: 49px;
+  text-align: center;
+  font-size: 36px;
+  font-family: Manrope;
+  font-weight: 800;
+  color: #101010;
+}
+.impression-info p {
+  font-style: normal;
+  max-width: 620px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #505050;
+  text-align: center;
+  font-family: Manrope;
+}
+.impression-cards-container {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding: 30px 0px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+}
+.impression-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.impression-cards h4 {
+  font-style: normal;
+  font-size: 21px;
+  font-family: Manrope;
+  font-weight: 800;
+  line-height: 150%;
+  color: #101010;
+}
+.impression-cards p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  font-family: Manrope;
+  color: #505050;
+}
+.customer .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+/* content writing page */
+.content-writing-hero {
+  max-width: 1760px;
+  margin: 0px auto;
+}
+.background-hero {
+  background-image: url("/Public/images/space.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.black-bg-hero {
+  background-color: #00000094;
+  padding: 80px 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.black-bg-hero h1 {
+  font-style: normal;
+  max-width: 1120px;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100%;
+  color: #edbd6b;
+  font-family: "Titania", sans-serif;
+}
+.black-bg-hero p {
+  max-width: 538px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Manrope;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+/* Audience */
+.audience {
+  max-width: 1440px;
+  background-color: #fff;
+  margin: 0px auto;
+  padding: 80px 160px;
+  font-family: Manrope;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  align-items: center;
+}
+.audience-services {
+  max-width: 1120px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 70px;
+}
+
+.audience-info {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+.audience-info h1 {
+  font-size: 36px;
+  font-family: Manrope;
+  font-weight: 800;
+  line-height: 49px;
+  font-style: normal;
+  color: #101010;
+}
+.audience-info p {
+  color: #505050;
+  font-size: 16px;
+  font-family: Manrope;
+  line-height: 150%;
+}
+.audience-image {
+  width: 525px;
+  height: 335px;
+}
+.audience-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+.audience-cards h4 {
+  font-size: 24px;
+  font-family: Manrope;
+  font-weight: 800;
+  line-height: 150%;
+  color: #101010;
+}
+.audience-cards p {
+  font-size: 18px;
+  font-family: Manrope;
+  line-height: 150%;
+  color: #505050;
+}
+.audience-cards img {
+  width: 44px;
+  height: 40px;
+}
+.horizontal-line {
+  width: 2px;
+  border: none;
+  background-color: #000000;
+}
+.audience-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.audience-cards-container div:nth-child(-n + 2) {
+  border-right: 1px solid #505050;
+}
+
+/* <!-- Article News Product(ANP-Card) --> */
+.content-writing-blogs-bg {
+  max-width: 1760px;
+  margin: 0px auto;
+  background-image: url("/Public/images/space.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.content-writing-blogs-black-bg {
+  padding: 80px 160px 80px 160px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content-writing-blogs-cards {
+  max-width: 1120px;
+  color: #ffffff;
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+.article-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.readmore {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  font-family: Manrope;
+  line-height: 150%;
+  color: #edbd6b;
+}
+.article-card h5 {
+  font-size: 20px;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: 130%;
+}
+.article-card p {
+  font-size: 16px;
+  font-family: Manrope;
+  line-height: 150%;
+  color: #afafaf;
+}
+.article {
+  font-size: 16px;
+  font-family: Manrope;
+  line-height: 150%;
+  color: #afafaf;
+}
