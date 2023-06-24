@@ -5,7 +5,7 @@
 
 /* home page Hero section */
 .hero-section {
-  background-image: url("/Public/images/hero-bg.png");
+  background-image: url("https://marketingminerva.com/wp-content/uploads/2023/06/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -20,10 +20,6 @@
   font-family: "Manrope",sans-serif;
   margin-right: auto;
   height: calc(80vh);
-  background-image: url("/Public/images/hero-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .hero_content {
   max-width: 1024px;
@@ -110,6 +106,52 @@
 }
 .Services-partition hr {
   border: 1px solid #505050;
+}
+/* digital services
+ */
+ .digital-services-hero {
+  /* this image is not from wordpress */
+  background-image: url("https://plus.unsplash.com/premium_photo-1686199460828-9ce114452f57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.digital-services-wrapper {
+  padding: 80px 20px;
+  max-width: 1760px;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope",sans-serif;
+  margin-right: auto;
+  height: calc(80vh);
+}
+.digital-service-content {
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.digital-services-wrapper h1 {
+  font-size: 100px;
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+  font-family: "Titania", sans-serif;
+  color: #ffffff;
+}
+.digital-services-wrapper p {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  margin: 0px auto 0px auto;
+  font-weight: 400;
+  line-height: 25px;
+  max-width: 558px;
+  text-align: center;
+  color: #ffffff;
 }
 .digital-services {
   display: flex;
@@ -476,12 +518,11 @@
 /* tech-Background */
 .tech-bg {
   max-width: 1760px;
-  padding: 170px 0px 170px 0px;
-  background-image: url("/Public/images/tech-bg.png");
+  padding: 170px 0px ;
+  background-image: url("https://marketingminerva.com/wp-content/uploads/2023/06/tech-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 0px auto 0px auto;
 }
 
 /* online-competition */
@@ -526,7 +567,7 @@
 
 /* design page */
 .design-hero {
-  background-image: url("/Public/images/design-hero-Image.png");
+  background-image: url("https://marketingminerva.com/wp-content/uploads/2023/06/design-hero.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -610,7 +651,8 @@
   margin: 0px auto;
 }
 .background-hero {
-  background-image: url("/Public/images/space.png");
+  /* this image is also not imported from design */
+  background-image: url("https://marketingminerva.com/wp-content/uploads/2023/06/space.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -723,12 +765,13 @@
 
 /* <!-- Article News Product(ANP-Card) --> */
 .content-writing-blogs-bg {
-  max-width: 1760px;
-  margin: 0px auto;
-  background-image: url("/Public/images/space.png");
+  /* this image is also not imported from design */
+  background-image: url("https://marketingminerva.com/wp-content/uploads/2023/06/space.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1760px;
+  margin: 0px auto;
 }
 .content-writing-blogs-black-bg {
   padding: 80px 20px;
