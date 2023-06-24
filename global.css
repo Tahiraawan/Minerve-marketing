@@ -17,7 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Manrope';
+  font-family: "Manrope",sans-serif;
   margin-right: auto;
   height: calc(80vh);
   background-image: url("/Public/images/hero-bg.png");
@@ -464,12 +464,12 @@
 }
 .choose-us-main h1 {
   font-size: 36px;
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   font-weight: 800;
 }
 .choose-us-main p {
   font-size: 16px;
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   line-height: 150%;
 }
 
@@ -486,7 +486,7 @@
 
 /* online-competition */
 .online-competition {
-    font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   margin: 0px auto;
   padding: 80px 20px;
   display: grid;
@@ -528,7 +528,7 @@
 .design-hero {
   background-image: url("/Public/images/design-hero-Image.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   height: 836px;
 }
@@ -536,7 +536,7 @@
 /* Costumer Impression */
 
 .customer {
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   margin: 0px auto;
   padding: 80px 20px;
   display: flex;
@@ -556,7 +556,7 @@
   line-height: 49px;
   text-align: center;
   font-size: 36px;
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   font-weight: 800;
   color: #101010;
 }
@@ -568,7 +568,7 @@
   line-height: 150%;
   color: #505050;
   text-align: center;
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
 }
 .impression-cards-container {
   border-top: 1px solid #000000;
@@ -586,7 +586,7 @@
 .impression-cards h4 {
   font-style: normal;
   font-size: 21px;
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   font-weight: 800;
   line-height: 150%;
   color: #101010;
@@ -596,7 +596,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   color: #505050;
 }
 .customer .buttons {
@@ -637,7 +637,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   line-height: 160%;
   color: #ffffff;
 }
@@ -647,8 +647,8 @@
   max-width: 1440px;
   background-color: #fff;
   margin: 0px auto;
-  padding: 80px 20px;
-  font-family: Manrope;
+  padding: 80px 20px;   
+   font-family: "Manrope",sans-serif;
   display: flex;
   flex-direction: column;
   gap: 70px;
@@ -669,7 +669,7 @@
 }
 .audience-info h1 {
   font-size: 36px;
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   font-weight: 800;
   line-height: 49px;
   font-style: normal;
@@ -678,7 +678,7 @@
 .audience-info p {
   color: #505050;
   font-size: 16px;
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   line-height: 150%;
 }
 .audience-image {
@@ -692,14 +692,14 @@
 }
 .audience-cards h4 {
   font-size: 24px;
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   font-weight: 800;
   line-height: 150%;
   color: #101010;
 }
 .audience-cards p {
   font-size: 18px;
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   line-height: 150%;
   color: #505050;
 }
@@ -758,31 +758,31 @@
   display: flex;
   gap: 10px;
   font-size: 18px;
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   line-height: 150%;
   color: #edbd6b;
 }
 .article-card h5 {
   font-size: 20px;
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   font-weight: 700;
   line-height: 130%;
 }
 .article-card p {
   font-size: 16px;
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   line-height: 150%;
   color: #afafaf;
 }
 .article {
   font-size: 16px;
-  font-family: Manrope;
+  font-family: "Manrope",sans-serif;
   line-height: 150%;
   color: #afafaf;
 }
 
 .design-section{
-  font-family: 'Manrope';
+  font-family: "Manrope",sans-serif;
   padding: 80px 20px;
   display: flex;
   flex-direction: column;
