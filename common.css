@@ -371,10 +371,9 @@ body svg {
   /* digital services section */
   
   .digital-service {
-    max-width: 1440px;
-    margin: 0px auto 0px auto;
-    padding: 80px 160px 80px 160px;
-    font-family: Manrope;
+    margin: 0px auto;
+    padding: 80px 20px;
+    font-family: 'Manrope', sans-serif;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -410,6 +409,7 @@ body svg {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    margin-bottom: 50px;
   }
   .services-section-2 {
     display: flex;
