@@ -8,7 +8,7 @@
   .container {
     max-width: 1080px;
   }
-  .hero,.digital-service-wrapper{
+  .home-hero-content,.digital-service-wrapper{
     height: auto;
   }
   .design-hero{
@@ -16,13 +16,13 @@
   }
 }
 @media screen and (max-width: 1280px) {
-  .hero_content,.digital-service-content {
+  .home-hero-content,.digital-service-content {
     max-width: 880px;
   }
   .footer-wrapper {
     gap: 80px;
   }
-  .hero,.digital-service-content h1 {
+  .home-hero-content,.digital-service-content h1 {
     font-size: 80px;
     line-height: 80px;
   }
@@ -41,7 +41,7 @@
   }
 }
 @media screen and (max-width: 1024px) {
-  .hero,.digital-service-wrapper{
+  .home-hero-content,.digital-service-wrapper{
     height: auto;
   }
   .digital-services-dropdown {
@@ -116,12 +116,20 @@
   .frequently,.audience-info {
     margin-bottom: 50px;
   }
+  .home-hero-content h1{
+    font-size: 73px;
+    line-height: 100%;
+      }
+      .home-hero-content p{
+    font-size: 16px;
+    line-height: 160%;
+      }
 }
 @media screen and (max-width: 768px) {
-  .hero_content,.digital-service-content {
+  .digital-service-content {
     max-width: 580px;
   }
-  .hero,.digital-service-wrapper h1 {
+.digital-service-wrapper h1 {
     font-size: 60px;
     line-height: 60px;
   }
@@ -175,6 +183,14 @@
   .frequently,.audience-info {
     margin-bottom: 50px;
   }   
+  .home-hero-content h1{
+    font-size: 63px;
+    line-height: 100%;
+      }
+      .home-hero-content p{
+    font-size: 18px;
+    line-height: 160%;
+      }
 }
 @media screen and (max-width: 640px) {
   .about-aim,
@@ -182,19 +198,19 @@
     grid-template-columns: repeat(1, 1fr);
     row-gap: 20px;
   }
-  .hero_content,.digital-service-content {
+ .digital-service-content {
     max-width: 450px;
   }
   .black-bg-hero,.background-hero{
     display: flex;
     gap: 20px;
   }
-  .hero,.digital-service-content p,
+  .digital-service-content p,
   .bullets p {
     font-size: 16px;
     line-height: 24px;
   }
-  .hero,.digital-service-content h1 {
+  .digital-service-content h1 {
     font-size: 42px;
     line-height: 42px;
   }
@@ -246,7 +262,16 @@
     border: none;
   }
   .design-hero{
-    height: 238px;
+    height: 241px;
   }
+  .home-hero-content h1{
+    font-size: 43px;
+    line-height: 100%;
+      }
+      .home-hero-content p{
+    font-size: 16px;
+    line-height: 160%;
+      }
   
 }
+
